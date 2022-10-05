@@ -9,7 +9,6 @@ int _strlen(const char *s);
 * str_concat - concatenate two string
 * @s1: pointer to first string
 * @s2: pointer to second string
-*
 * Return: pointer to the concatenated string
 */
 char *str_concat(char *s1, char *s2)
