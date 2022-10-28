@@ -28,7 +28,7 @@ return (*head);
 }
 else
 {
-tem = *head;
+temp = *head;
 while (temp->next)
 temp = temp->next;
 temp->next = new_list;
